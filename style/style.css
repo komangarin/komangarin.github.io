@@ -1,0 +1,199 @@
+/* start font*/
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+/* end font*/
+
+
+/* start Body*/
+body {
+    background-color: white;
+    color: azure;
+}
+/*End Body*/
+
+/*start body*/
+body {
+    color: rgb(129, 222, 208);
+    font-family: "helvetica neue" roboto,Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16 px ;
+    line-height: 1,5cm;
+    margin: 0;
+    padding: 0;
+}
+/*end body*/
+
+/*start debug*/
+.bg-blue {
+background-color: rgb(129, 222, 208);
+}
+
+.bg-yellow {
+    background-color: yellow;
+    }
+/*end debug*/
+
+/*start container*/
+.container {
+margin: 10px auto;
+overflow: auto;
+width: 90%;
+}
+
+.container-full {
+    margin: 10px auto;
+    overflow: auto;
+    background-color: thistle;
+    Width: 100%;
+}
+/*end container*/
+
+/* start logo*/
+.logo {
+    text-align: center;
+}
+
+/*end logo*/
+
+
+
+
+/* Start premier*/
+.menu-primer ul{
+    background-color: rgb(129, 222, 208);
+    border-radius: 4px;
+    box-shadow: rgb(250, 197, 52);
+}
+ 
+.menu-primer li{
+    border-right: 1px solid #c8e7e2;
+    display: inline-block;
+    margin: 04px;
+}
+
+.menu-primer a {
+    color: antiquewhite;
+    font-size: 13px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.menu-primer a:hover{
+    background-color: palevioletred;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.menu-primer .active{
+    background-color: rgb(235, 183, 43);
+    color: rgb(225, 249, 250);
+    text-decoration: none;
+
+}
+/* End premier*/
+
+/* start anchor/hyperlik*/
+a:link
+a:visited{
+    color: purple;
+    text-decoration: none;
+}
+
+a:hover,
+a:active{
+    color: blue ;
+    text-decoration: underline;
+}
+/* end anchor/hyperlik*/
+
+  /* start Head */
+  h1, h2, h3, h4, h5, h6{
+      font-weight: 400;
+      Letter-spacing: 1px;
+  }
+  h1 {
+      font-size: 28px;
+  }
+  h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+/* end head */
+
+/* start jumbotron*/
+.jumbotron {
+    background-color: #c8e7e2;
+    border: 1px solid #5debf0;
+    border-radius: 4px;
+    padding: 20px 0;
+}
+.jumbotron h1{
+    font-size: 32px;
+    padding: 0 20px;
+}
+
+.jumbotron h3{
+    font-size: 20px;
+    padding: 0 20px;
+}
+/* end jumbotron*/
+
+
+
+/* start menu sekunder*/
+.menu-sekunder {
+    background-color: #d0f3f1;
+    border-bottom: 1px solid #c8e7e2;
+    border-top: 1px solid #c8e7e2;
+    overflow: auto;
+    padding: 10px 0;
+}
+.menu sekunder h4 {
+    font-size: 14px;
+}
+.meenu-sekunder ul{
+    padding: 0;
+}
+.menu-sekunder li{
+    list-style: disc;
+}
+.menu-sekunder li a,
+.menu-sekunder p{
+    font-size: 15px;
+}
+.menu-sekunder-one,
+.menu-sekunder-two,
+.menu-sekunder-three{
+    float:left;
+}
+.menu-sekunder-one{
+    width: 40%;
+}
+.menu-sekunder-two,
+.menu-sekunder-three{
+    width: 30%;
+}
+.meenu-sekunder li img{
+    vertical-align: middle;
+}
+    
+/* End end menu sekunder*/
+
+/*start copyright*/
+.copyright p{
+    font-size: 15px;
+    
+}
+/*end copyright*/
